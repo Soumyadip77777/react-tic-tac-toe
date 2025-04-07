@@ -1,12 +1,62 @@
-# React + Vite
+# 🧠 Tic Tac Toe Game - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet fun Tic Tac Toe (X/O) game built using **React** and **Vite**. This project allows two players to play the classic 3x3 grid game in a clean and responsive UI.
 
-Currently, two official plugins are available:
+## 🖼️ Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- Two-player turn-based game (X and O)
+- Win detection logic for all scenarios
+- Responsive design — works on desktop and mobile
+- Reset functionality to start a new game
+- Minimal and clean UI using pure CSS
+
+## ⚙️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- HTML, CSS
+
+## 📦 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/tic-tac-toe-react.git
+cd tic-tac-toe-react
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+3. Start the development server
+bash
+Copy
+Edit
+npm run dev
+Open http://localhost:5173 to view it in your browser.
+
+🏗️ Folder Structure
+pgsql
+Copy
+Edit
+.
+├── public/
+├── src/
+│   ├── assets/
+│   │   ├── circle.png
+│   │   └── cross.png
+│   ├── components/
+│   │   └── TicTacToe.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+└── README.md
+📱 Responsive Design
+The app adjusts automatically for smaller screens using CSS Flexbox and media queries to ensure the game is playable on all devices.
+
+🙌 Acknowledgements
+Icons used: Circle and Cross (custom PNGs)
