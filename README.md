@@ -1,62 +1,44 @@
-# 🧠 Tic Tac Toe Game - React + Vite
+# 🎮 React Tic Tac Toe Game
 
-A simple yet fun Tic Tac Toe (X/O) game built using **React** and **Vite**. This project allows two players to play the classic 3x3 grid game in a clean and responsive UI.
+A fun and interactive Tic Tac Toe game built using **React + Vite**. This project demonstrates state management, user interaction, and basic game logic in a responsive, mobile-friendly UI.
 
-## 🖼️ Preview
+## 🚀 Live Demo
 
+🟢 [Play Now on Vercel](https://react-tic-tac-toe-hvx1.vercel.app)
 
+## 🛠️ Features
 
-## 🚀 Features
+- ✖️⭕ Turn-based gameplay
+- ✅ Win detection logic
+- 🔁 Reset game anytime
+- 📱 Fully responsive (mobile-friendly)
+- ⚛️ Built with Vite + React
+- 🎨 Styled with pure CSS (no frameworks)
 
-- Two-player turn-based game (X and O)
-- Win detection logic for all scenarios
-- Responsive design — works on desktop and mobile
-- Reset functionality to start a new game
-- Minimal and clean UI using pure CSS
+## 📂 Project Structure
 
-## ⚙️ Tech Stack
+react-tic-tac-toe/ │ ├── public/ │ ├── src/ │ ├── assets/ │ │ ├── circle.png │ │ └── cross.png │ ├── Components/ │ │ └── TicTacToe/ │ │ ├── TicTacToe.jsx │ │ └── TicTacToe.css │ └── App.jsx │ ├── .gitignore ├── index.html ├── package.json └── vite.config.js
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- HTML, CSS
+bash
+Copy
+Edit
 
-## 📦 Getting Started
+## 📦 Installation
 
-### 1. Clone the repo
+Clone the repository and run it locally:
 
 ```bash
-git clone https://github.com/your-username/tic-tac-toe-react.git
-cd tic-tac-toe-react
-2. Install dependencies
-bash
-Copy
-Edit
+git clone https://github.com/Soumyadip77777/react-tic-tac-toe.git
+cd react-tic-tac-toe
 npm install
-3. Start the development server
+npm run dev
+🧾 Build for Production
 bash
 Copy
 Edit
-npm run dev
-Open http://localhost:5173 to view it in your browser.
+npm run build
+🌐 Deployment
+This project is deployed using Vercel.
 
-🏗️ Folder Structure
-pgsql
-Copy
-Edit
-.
-├── public/
-├── src/
-│   ├── assets/
-│   │   ├── circle.png
-│   │   └── cross.png
-│   ├── components/
-│   │   └── TicTacToe.jsx
-│   ├── App.jsx
-│   └── main.jsx
-├── index.html
-└── README.md
-📱 Responsive Design
-The app adjusts automatically for smaller screens using CSS Flexbox and media queries to ensure the game is playable on all devices.
-
-🙌 Acknowledgements
-Icons used: Circle and Cross (custom PNGs)
+🙌 Credits
+Made with ❤️ by Soumyadip
